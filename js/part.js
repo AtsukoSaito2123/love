@@ -1,23 +1,5 @@
 $(function () {
 
-    var resizing;
-
-    window.addEventListener('resize', function() {
-      clearTimeout(resizing);
-      resizing = setTimeout(function() {
-        location.reload();
-      }, 500); // リサイズが終わるまでの待機時間
-    });
-    
-    var scrolling;
-    
-    window.addEventListener('scroll', function() {
-      clearTimeout(scrolling);
-      scrolling = setTimeout(function() {
-        // ここにスクロール時の処理を追加
-      }, 500); // スクロールが終わるまでの待機時間
-    });
-    
 
     // window.addEventListener('resize', function () {
     //     location.reload();
