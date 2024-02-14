@@ -486,7 +486,7 @@ play btn モーダルウインドウ
         window.addEventListener('resize', function() {
             // リサイズ時にscrollTriggerをリフレッシュ
             ScrollTrigger.refresh();
-            location.reload();
+    
         });
 
 
