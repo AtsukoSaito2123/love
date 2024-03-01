@@ -1,0 +1,24 @@
+// ブレイクポイントを指定
+// $pc: 1080px;
+$tb: 1024px;
+$sp: 768px;
+$ln: 550px;
+
+@mixin tb {
+    @media screen and (max-width: ($tb)) {
+        @content;
+    }
+}
+
+@mixin sp {
+    @media screen and (max-width: ($sp)) {
+        @content;
+    }
+}
+
+// LINEUP 商品画像のheight調整用
+@mixin ln {
+    @media screen and (max-width: ($ln)) {
+        @content;
+    }
+}
