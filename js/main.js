@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".details").forEach(function (el) {
-    const summary = el.querySelector(".summary");
+    const summary = el.querySelector(".btn");
     const answer = el.querySelector(".answer");
     summary.addEventListener("click", (event) => {
       // デフォルトの挙動を無効化
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".details2").forEach(function (el) {
-    const summary2 = el.querySelector(".summary2");
+    const summary2 = el.querySelector(".btn2");
     const answer2 = el.querySelector(".answer2");
     summary2.addEventListener("click", (event) => {
       // デフォルトの挙動を無効化
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".details3").forEach(function (el) {
+  document.querySelectorAll(".btn3").forEach(function (el) {
     const summary3 = el.querySelector(".summary3");
     const answer3 = el.querySelector(".answer3");
     summary3.addEventListener("click", (event) => {
