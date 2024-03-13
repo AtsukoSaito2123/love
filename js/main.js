@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 document.addEventListener("DOMContentLoaded", () => {
-  document.querySelectorAll(".btn3").forEach(function (el) {
-    const summary3 = el.querySelector(".summary3");
+  document.querySelectorAll(".details3").forEach(function (el) {
+    const summary3 = el.querySelector(".btn3");
     const answer3 = el.querySelector(".answer3");
     summary3.addEventListener("click", (event) => {
       // デフォルトの挙動を無効化
